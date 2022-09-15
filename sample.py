@@ -1,0 +1,12 @@
+import datetime as dt
+print("Enter your First name")
+first_name=input()
+print("Enter your Last name")
+last_name=input()
+today=dt.date.today()
+print("Enter your Date of Birth")
+DOB=input()
+age=today.year-int(DOB[0-4])
+print("name: ",first_name + " " + last_name)
+print("Age:",age)
+print("DOB:",DOB)
