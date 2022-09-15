@@ -8,7 +8,7 @@ conn = mariadb.connect(
 
     user = "root",
 
-    password = "kishmish442001",
+    password = "password",
 
     host = "localhost",
 
